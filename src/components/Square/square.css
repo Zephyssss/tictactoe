@@ -1,19 +1,5 @@
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-}
-
-ol,
-ul {
-  padding-left: 30px;
-}
-
-.buttonBold{
-  font-weight: bold;
-}
-
-.squareHighlight{
-  background: #008CBA;
+.squareHighlight {
+  background: #008cba;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -25,16 +11,6 @@ ul {
   padding: 0;
   text-align: center;
   width: 34px;
-}
-
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.status {
-  margin-bottom: 10px;
 }
 
 .square {
@@ -58,18 +34,4 @@ ul {
 
 .kbd-navigation .square:focus {
   background: #ddd;
-}
-
-.game {
-  display: flex;
-  flex-direction: row;
-}
-
-.game-info {
-  margin-left: 20px;
-}
-
-.toggle{
-  margin-left: 10px;
-  margin-top: 10px;
 }
